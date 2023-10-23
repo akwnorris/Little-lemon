@@ -1,31 +1,32 @@
-import React from "react";
-import { useState } from "react";
-
-
+import React, { useState } from "react";
 
 const BookingForm = (props) => {
+  const [reservation, setReservation] = useState({
+    date: "",
+    times: "",
+  });
+  const [occasion, setOccasion] = useState("");
+  const [guests, setGuests] = useState("");
 
-   const [occasion, setOccasion] = useState("");
-   const [guests, setGuests] = useState("");
-   const [date, setDate] = useState("");
-   const [times, setTimes] = useState("")
+  const handleSumbit = (e) => {
+    e.preventDefault();
+    props.submitForm(e);
+  };
 
-   const handleSumbit = (e) => {
-   e.preventDefault();
-   props.submitForm(e);
-   };
-
-   const handleChange = (e) => {
-    setDate(e);
+  const handleChange = (e) => {
+    setReservation({
+      ...reservation,
+      times: e.target.value,
+    });
     props.dispatch(e);
-   }
+  };
 
-   const formatTime = (time) => {
+  const formatTime = (time) => {
     // Format time from 24-hour to 12-hour format
-    const [hours, minutes] = time.split(':');
+    const [hours, minutes] = time.split(":");
     const isPM = parseInt(hours) >= 12;
     const formattedHours = isPM ? parseInt(hours) - 12 : parseInt(hours);
-    return `${formattedHours}:${minutes} ${isPM ? 'PM' : 'AM'}`;
+    return `${formattedHours}:${minutes} ${isPM ? "PM" : "AM"}`;
   };
 
   return (
@@ -37,8 +38,10 @@ const BookingForm = (props) => {
               <label htmlFor="book-date">Choose Date:</label>
               <input
                 id="book-date"
-                value={date}
-                onChange={(e) => setDate(e.target.value)}
+                value={reservation.date}
+                onChange={(e) =>
+                  setReservation({ ...reservation, date: e.target.value })
+                }
                 type="date"
                 required
               />
@@ -47,8 +50,8 @@ const BookingForm = (props) => {
               <label htmlFor="book-time">Choose Time:</label>
               <select
                 id="book-time"
-                value={times}
-                onChange={(e) => handleChange(e)}
+                value={reservation.times}
+                onChange={handleChange}
                 required
               >
                 <option value="">Select a Time</option>
@@ -88,7 +91,11 @@ const BookingForm = (props) => {
               </select>
             </div>
             <div className="btnReceive">
-              <input aria-label="On Click" type="submit" value="Make Your Reservation" />
+              <input
+                aria-label="On Click"
+                type="submit"
+                value="Make Your Reservation"
+              />
             </div>
           </fieldset>
         </form>
