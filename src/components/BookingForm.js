@@ -68,7 +68,7 @@ const BookingForm = (props) => {
                 onChange={(e) => setGuests(e.target.value)}
                 type="number"
                 placeholder="0"
-                max="10"
+                max="20"
                 required
               />
             </div>
