@@ -18,7 +18,6 @@ const BookingForm = (props) => {
       ...reservation,
       times: e.target.value,
     });
-    props.dispatch(e);
   };
 
   const formatTime = (time) => {
