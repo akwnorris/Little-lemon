@@ -217,6 +217,7 @@ select {
   padding-top: 25px;
   margin-left: 220px;
   color: #333333;
+  font-size: 20px;
 }
 
 .confirm span {
@@ -232,6 +233,7 @@ select {
 
 .menu-container h2{
   color: #333333;
+  font-size: 35px;
 }
 
 .menu-header{
