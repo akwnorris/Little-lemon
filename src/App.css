@@ -122,10 +122,6 @@ button {
   margin-top: 20px;
 }
 
-button a:hover {
- 
-}
-
 .banner-img {
   position: absolute;
   right: 10%; /* Adjust this value for your preferred horizontal alignment */
@@ -217,6 +213,14 @@ select {
   font-size: 14px;
 }
 
+.confirm {
+  padding-top: 25px;
+  margin-left: 220px;
+}
+
+.confirm span {
+  color: #f4ce14;
+}
 
 /* menu items */
 
