@@ -16,16 +16,16 @@ const handleOrder = (id) => {
       })
       
       swalWithBootstrapButtons.fire({
-        title: 'Do you want to confirm order?',
-        text: "You won't be able to revert this!",
+        title: 'Do you want to place order?',
+        text: "You won't be able to change your order once confirmed.",
         icon: 'warning',
         showCancelButton: false,
-        confirmButtonText: 'Yes, order it!',
+        confirmButtonText: 'Yes, place order!',
         reverseButtons: true
       }).then((result) => {
         if (result.isConfirmed) {
           swalWithBootstrapButtons.fire(
-            'Orderd!',
+            'Confirmed!',
             'Your order has been confirmed.',
             'success'
           )
