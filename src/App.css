@@ -216,6 +216,7 @@ select {
 .confirm {
   padding-top: 25px;
   margin-left: 220px;
+  color: #333333;
 }
 
 .confirm span {
@@ -230,7 +231,7 @@ select {
 }
 
 .menu-container h2{
-  color: #000;
+  color: #333333;
 }
 
 .menu-header{
