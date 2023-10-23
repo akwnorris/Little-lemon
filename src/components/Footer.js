@@ -7,7 +7,8 @@ const Footer = () => {
             <section>
             <div className="company-info">
                 <img src={small_logo} alt=""/>
-                <p>We are a family owned Mediterraneran restaurant, focused on traditional recipes served with a modern twist.</p>
+                <li><a href="/">Apply Now</a></li>
+                <li><a href="/">Contact Us</a></li>
             </div>
             <div>
                 <h3>Important Links</h3>
@@ -17,11 +18,10 @@ const Footer = () => {
                 <li><a href="/">Menu</a></li>
                 <li><a href="/">Reservations</a></li>
                 <li><a href="/">Order Online</a></li>
-                <li><a href="/">Login</a></li>
             </ul>
             </div>
             <div>
-                <h3>Contact</h3>
+                <h3>Where To Find Us</h3>
             <ul>
             <li>Address: <br/> 123 Town Street, Chicago</li>
                 <li>Phone: <br/> +00 123 456 789</li>
@@ -29,7 +29,7 @@ const Footer = () => {
             </ul>
             </div>
             <div>
-                <h3>Social Media Links</h3>
+                <h3>Socials</h3>
             <ul>
                 <li><a href="/">Facebook</a></li>
                 <li><a href="/">Instagram</a></li>
