@@ -7,12 +7,9 @@ const Header = () => {
     <header className="header">
       <section>
         <div className="banner">
-          <h2>Little Lemon</h2>
-          <h3>Chicago</h3>
+          <h2>Welcome to Little Lemon!</h2>
           <p>
-            We are a charming family owned Mediterraneran neighborhood bistro
-            that serves simple food and classic cocktails in a lively but casual
-            environment. We feature a locally-sourced menu with daily specials.
+          Join us for a delightful experience, where we serve up deliciously simple cuisine and craft classic cocktails in a vibrant yet relaxed atmosphere. Our menu is a celebration of local flavors, and we're always thrilled to surprise you with our daily specials. Come on in and savor the warmth of our hospitality!
           </p>
           <Link to="/booking">
             <button aria-label="On Click">Reserve Table</button>
