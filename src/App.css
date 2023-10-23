@@ -191,7 +191,7 @@ input, label{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem 1rem;
+  gap: 2rem .3rem;
   font-family: "Markazi";
   font-size: 24px;
 }
