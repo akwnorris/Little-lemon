@@ -137,39 +137,71 @@ button a:hover {
 }
 
 
-form, .comfirm{
-  padding: 10px 13%;
+/* Target the form element */
+form {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.formField{
-  padding: 50px 20px;
+/* Style form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-input, label{
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-#book-date, #book-time, #book-guests, #book-occasion{
-  background: #bdbdbd43;
-  padding: 8px 24px;
-  border: none;
+/* Style form input fields */
+input[type="text"],
+input[type="date"],
+select,
+input[type="number"] {
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
   outline: none;
-  border-radius: 2px;
 }
 
-.btnReceive input{
-  padding: 12px 16px;
-  margin-top: 20px;
-  background: #495e57;
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #4caf50;
   color: #fff;
+  padding: 12px 20px;
   border: none;
   border-radius: 4px;
-
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.comfirm span{
-  color: #F4CE14;
+/* Style form element on hover */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Customize the appearance of select elements */
+select {
+  appearance: none; /* Remove default dropdown arrow on some browsers */
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Style form fieldset */
+.formField {
+  border: none;
+  padding: 20px;
+}
+
+/* Style error messages if needed */
+.error-message {
+  color: red;
+  font-size: 14px;
 }
 
 
