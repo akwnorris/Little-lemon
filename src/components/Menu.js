@@ -36,7 +36,7 @@ const handleOrder = (id) => {
   return (
     <div className="menu-container">
       <div className="menu-header">
-        <h2>This weeks specials!</h2>
+        <h2>Chef Nico Reccomends</h2>
         <button>Online Menu</button>
       </div>
       <div className="cards">
