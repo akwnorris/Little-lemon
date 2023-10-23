@@ -7,8 +7,12 @@ const Footer = () => {
             <section>
             <div className="company-info">
                 <img src={small_logo} alt=""/>
+                <p>
                 <li><a href="/">Apply Now</a></li>
+                </p>
+                <p>
                 <li><a href="/">Contact Us</a></li>
+                </p>
             </div>
             <div>
                 <h3>Important Links</h3>
