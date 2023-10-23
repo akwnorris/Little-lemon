@@ -27,8 +27,8 @@ const Footer = () => {
             <div>
                 <h3>Where To Find Us</h3>
             <ul>
-            <li>Address: <br/> 123 Town Street, Chicago</li>
-                <li>Phone: <br/> +00 123 456 789</li>
+            <li>Address: <br/> 123 Main Street, Arkansas</li>
+                <li>Phone: <br/> (012)-345-6789</li>
                 <li>Email: <br/> little@lemon.com</li>
             </ul>
             </div>
