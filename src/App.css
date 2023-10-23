@@ -222,7 +222,6 @@ select {
 
 .menu-container h2{
   color: #000;
-
 }
 
 .menu-header{
@@ -240,6 +239,11 @@ select {
   gap: 2rem .3rem;
   font-family: "Markazi";
   font-size: 24px;
+}
+
+.cards p {
+  font-family: 'Karla';
+  color: #333333;
 }
 
 .menu-items{
