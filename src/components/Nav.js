@@ -26,9 +26,6 @@ const Nav = () => {
           <a href="/">About</a>
         </li>
         <li>
-          <a href="/">Services</a>
-        </li>
-        <li>
           <a href="/">Menu</a>
         </li>
         <li>
@@ -38,7 +35,7 @@ const Nav = () => {
           <a href="/booking">Order Online</a>
         </li>
         <li>
-          <a href="/">Login</a>
+          <a href="/">Contact Us</a>
         </li>
       </ul>
     </nav>
