@@ -81,8 +81,10 @@ const BookingForm = (props) => {
                 required
               >
                 <option value="">Select an Option</option>
+                <option>N/A</option>
                 <option>Birthday</option>
                 <option>Anniversary</option>
+                <option>Just Because</option>
               </select>
             </div>
             <div className="btnReceive">
