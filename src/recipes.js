@@ -1,11 +1,11 @@
 const recipes = [
     { 
       id: 1,
-      title: "Greek salad",
+      title: "Greek Salad",
       price: 12.99,
       image: "https://i.ibb.co/68c9bLv/greek-salad.jpg",
       description:
-        "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style fota cheese, garnished with crunchy garlic and rosemary croutons",
+        "Crisp cucumbers, tomatoes, olives, and feta, drizzled with olive oil and oregano.",
     },
     {
       id: 2,
@@ -13,15 +13,15 @@ const recipes = [
       price: 5.99,
       image: "https://i.ibb.co/317GqZv/Bruchetta.png",
       description:
-        "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. Perfect for the table to share.",
+        "Freshly toasted Italian bread topped with ripe tomatoes, basil, and balsamic glaze.",
     },
     {
       id: 3,
-      title: "Lemon Dessert",
+      title: "Nonna's Lemon Cake",
       price: 4.78,
       image: "https://i.ibb.co/sm6MfcH/desert.jpg",
       description:
-        "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.",
+        "A zesty delight with layers of moist lemon-infused cake and a tangy lemon glaze.",
     },
   
   ];
