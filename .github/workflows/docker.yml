@@ -13,4 +13,4 @@ jobs:
       - uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ghcr.io/akwnorris/Little-lemon:latest
+          tags: ghcr.io/akwnorris/little-lemon:latest
