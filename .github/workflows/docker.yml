@@ -11,6 +11,8 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - uses: docker/build-push-action@v5
+        permissions:
+          packages: write
         with:
           push: true
           tags: ghcr.io/akwnorris/little-lemon:latest
